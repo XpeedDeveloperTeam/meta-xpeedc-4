@@ -6,7 +6,7 @@ LICENSE = "CLOSED"
 PV = "${KV}+${SRCDATE}"
 PR = "r0"
 
-SRC_URI = "http://xpeedlxclass.eu/${MACHINE_DRIVER}-drivers-${KV}-${GCC}-${SRCDATE}.zip"
+SRC_URI = "http://xpeedlx.info/${MACHINE_DRIVER}-drivers-${KV}-${GCC}-${SRCDATE}.zip"
 
 S = "${WORKDIR}"
 

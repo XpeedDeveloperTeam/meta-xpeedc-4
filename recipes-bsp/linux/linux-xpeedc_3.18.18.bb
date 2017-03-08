@@ -7,8 +7,8 @@ COMPATIBLE_MACHINE = "xpeedc"
 KERNEL_RELEASE = "3.18.18"
 SRCDATE = "20150812"
 
-SRC_URI[md5sum] = "9b0a98d2ce3f64769d56311bfac4432a"
-SRC_URI[sha256sum] = "eb8736304a4ad5f3518ba4db07c01251238caa454f0e16a80b28d4de4374d8f9"
+SRC_URI[md5sum] = "a36ad0dcbbe1463c58865a1df6f2b180"
+SRC_URI[sha256sum] = "9a04c73767c6e0ddb598bed51bf3c9f6cf601ebb189ceba7b2f57ca553edf1ea"
 
 LIC_FILES_CHKSUM = "file://${WORKDIR}/linux-${PV}/COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
@@ -22,7 +22,7 @@ PKG_kernel-image = "kernel-image"
 RPROVIDES_kernel-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "http://xpeedlxclass.eu/xpeedc-linux-${PV}-${SRCDATE}.tar.gz \
+SRC_URI += "http://xpeedlx.info/xpeedc-linux-${PV}-${SRCDATE}.tar.gz \
 	file://defconfig \
 		"
 
