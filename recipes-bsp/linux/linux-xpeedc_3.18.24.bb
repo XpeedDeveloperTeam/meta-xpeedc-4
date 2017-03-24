@@ -7,8 +7,8 @@ COMPATIBLE_MACHINE = "xpeedc"
 KERNEL_RELEASE = "3.18.24"
 SRCDATE = "20151109"
 
-SRC_URI[md5sum] = "54386b0ed53eef58ab54dbd4dd78af68"
-SRC_URI[sha256sum] = "0c6ddb85b6fc0672b7405c5e317be7191a6958d6faedafeab6554dbc12333b53"
+SRC_URI[md5sum] = "b7b64609db25ae28e85dd0549ee697a4"
+SRC_URI[sha256sum] = "ef2dbd871ae67ca9dafeedd21668338b9bc929258f67867bef8efdf9b0ee5b15"
 
 LIC_FILES_CHKSUM = "file://${WORKDIR}/linux-${PV}/COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
